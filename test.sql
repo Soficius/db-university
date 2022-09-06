@@ -31,7 +31,9 @@ WHERE level = "magistrale";
 SELECT COUNT(*) AS total FROM departments;
 
 -- 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
-
+SELECT COUNT(*) AS total_no_phone
+FROM teachers
+WHERE phone is NULL;
 
 
 -- ------------------------------------------ QUERY CON GROUP BY
