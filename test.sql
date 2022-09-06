@@ -36,7 +36,7 @@ FROM teachers
 WHERE phone is NULL;
 
 
--- ------------------------------------------ QUERY CON GROUP BY
+-- ------------------------------------------  QUERY CON GROUP BY
 
 
 -- 1. Contare quanti iscritti ci sono stati ogni anno
